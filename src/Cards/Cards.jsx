@@ -13,21 +13,20 @@ class Cards extends Component {
                 <div className="row">
                     <div className="col-md-4">
                         <Card
-                            imgsrc={coder1}
+                            imgsrc={coder1} title="Code"
                         />
                     </div>
                     <div className="col-md-4">
                     <Card
-                            imgsrc={coder2}
+                            imgsrc={coder2} title="Console"
                         />
                     </div>
                     <div className="col-md-4">
                     <Card
-                            imgsrc={coder3}
+                            imgsrc={coder3} title="Playground"
                         />
                     </div>
                 </div>
-
             </div>
         )
     }
